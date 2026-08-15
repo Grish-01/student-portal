@@ -20,3 +20,9 @@ bool updatePreference(std::map<std::string, std::string>& settings,
     std::cout << key << " updated to " << value << std::endl;
     return true;
 }
+
+void resetToDefaults(std::map<std::string, std::string>& settings) {
+    settings["theme"] = "light";
+    settings["notifications"] = "enabled";
+    std::cout << "Settings reset to defaults." << std::endl;
+}
