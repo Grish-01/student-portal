@@ -9,3 +9,10 @@ A lightweight console-based student portal application built in C++.
 ## Installation
 1. Clone this repository: `git clone <repo-url>`
 2. Navigate into the folder: `cd student-portal`
+
+## Usage
+Compile and run with:
+\`\`\`
+g++ main.cpp -o portal
+./portal
+\`\`\`
