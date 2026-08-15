@@ -26,3 +26,10 @@ void resetToDefaults(std::map<std::string, std::string>& settings) {
     settings["notifications"] = "enabled";
     std::cout << "Settings reset to defaults." << std::endl;
 }
+
+void saveSettings(const std::map<std::string, std::string>& settings) {
+    std::cout << "Saving " << settings.size() << " settings..." << std::endl;
+    for (const auto& pair : settings) {
+        std::cout << "  " << pair.first << " = " << pair.second << std::endl;
+    }
+}
