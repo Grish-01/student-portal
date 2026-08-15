@@ -28,3 +28,4 @@ int main() {
 }
 
 // TODO: refactor sum logic into a reusable Calculator class
+// minor style cleanup
