@@ -16,3 +16,7 @@ Compile and run with:
 g++ main.cpp -o portal
 ./portal
 \`\`\`
+
+## Project Structure
+- `main.cpp` — application entry point
+- `src/` — feature modules (login, profile, dashboard, settings)
