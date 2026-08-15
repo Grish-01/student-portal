@@ -9,3 +9,14 @@ std::map<std::string, std::string> loadSettings() {
     settings["notifications"] = "enabled";
     return settings;
 }
+
+bool updatePreference(std::map<std::string, std::string>& settings,
+                       const std::string& key, const std::string& value) {
+    if (settings.find(key) == settings.end()) {
+        std::cout << "Unknown setting: " << key << std::endl;
+        return false;
+    }
+    settings[key] = value;
+    std::cout << key << " updated to " << value << std::endl;
+    return true;
+}
