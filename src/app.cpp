@@ -26,3 +26,5 @@ int main() {
 
     return 0;
 }
+
+// TODO: refactor sum logic into a reusable Calculator class
