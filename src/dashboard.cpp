@@ -15,3 +15,8 @@ void displayStats(const std::vector<StatEntry>& stats) {
         std::cout << stat.label << ": " << stat.value << std::endl;
     }
 }
+
+int refreshWidgets(int widgetCount) {
+    std::cout << "Refreshing " << widgetCount << " widgets..." << std::endl;
+    return widgetCount;
+}
