@@ -27,3 +27,4 @@ void renderSummary(const std::vector<StatEntry>& stats, int widgetCount) {
     refreshWidgets(widgetCount);
     std::cout << "Dashboard summary rendered." << std::endl;
 }
+int placeholderMetric = 0;
