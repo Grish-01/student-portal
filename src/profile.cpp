@@ -25,3 +25,13 @@ bool updateEmail(UserProfile& profile, const std::string& newEmail) {
     std::cout << "Email updated successfully." << std::endl;
     return true;
 }
+
+void editProfile(UserProfile& profile, const std::string& newName, const std::string& newEmail) {
+    if (validateProfileData(newName, newEmail)) {
+        profile.name = newName;
+        updateEmail(profile, newEmail);
+        std::cout << "Profile updated." << std::endl;
+    } else {
+        std::cout << "Profile update failed: invalid data." << std::endl;
+    }
+}
