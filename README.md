@@ -1,4 +1,5 @@
-# Student Portal - Campus Edition
+# Student Portal - Campus Edition (Official Release)
+
 
 A lightweight console-based student portal application built in C++.
 
