@@ -20,3 +20,6 @@ g++ main.cpp -o portal
 ## Project Structure
 - `main.cpp` — application entry point
 - `src/` — feature modules (login, profile, dashboard, settings)
+
+## Contributing
+Create a feature branch, commit your changes with clear messages, and open a pull request against `main`.
