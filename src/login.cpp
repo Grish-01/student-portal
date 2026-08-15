@@ -18,3 +18,7 @@ bool authenticateUser(const std::string& user, const std::string& pass) {
     std::cout << "Login failed." << std::endl;
     return false;
 }
+
+void logoutUser() {
+    std::cout << "User logged out." << std::endl;
+}
